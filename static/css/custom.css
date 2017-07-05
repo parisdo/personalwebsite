@@ -1,0 +1,487 @@
+/******* Body *******/
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight: 300;
+
+}
+
+/****** Paris Do Animated Landing Page *****/
+.services-section {
+    padding-top: 0px !important;
+}
+
+    .container {
+        height: 100% !important;
+    }
+
+
+
+
+
+/******* Projects ********/
+
+@media screen and (max-width: 600px) {
+    .computer-img {
+        height: 160px;
+        width: 280px;
+    }
+    h4 {
+        line-height: 0;
+    }
+    h4.intro-content {
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+    .item-box-text {
+        line-height: 1.6em;
+    }
+    h5.intro-resume {
+        font-size: 1.3em;
+    }
+    .scroll-button {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        padding: 36px 18px 36px 18px;
+    }
+    .item-container {
+        margin: 0 0 0 0;
+        padding: 0 20px 0 20px;
+    }
+    .item-info {
+        font-size: 14px;
+    }
+    h1.projects-title {
+        font-size: 35px;
+    }
+    h1.intro-title {
+        font-size: 2.8em;
+    }
+    h4.intro-content {
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+    h5.intro-resume {
+        font-size: 1.3em;
+    }
+    .inline-text {
+        line-height: 35px !important;
+    }
+    .intro-section {
+        min-height: 500px !important;
+    }
+    .item-content {
+        font-size: 1.3em;
+    }
+    .computer-img {
+        height: 160px;
+        width: 280px;
+    }
+    .scroll-button {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .project {
+        padding: 80px 80px 80px 80px;
+    }
+    .item-container {
+        margin: 0 24.5px 0 24.5px;
+        padding: 0 20px 0 20px;
+    }
+    .item-info {
+        font-size: 16px;
+    }
+    h1.projects-title {
+        font-size: 45px;
+    }
+    h1.intro-title {
+        font-size: 4.2em;
+    }
+    h4.intro-content {
+        font-size: 2em;
+        line-height: 1.6em;
+    }
+    .item-box-text {
+        line-height: 1.8em;
+    }
+    .intro-section {
+        min-height: 800px !important;
+    }
+    .item-content {
+        font-size: 1.4em;
+    }
+    .computer-img {
+        height: 200px;
+        width: 340px;
+    }
+    .maxwidth {
+        max-width: 64em;
+    }
+    h5.intro-resume {
+        font-size: 1.7em;
+    }
+    .scroll-button {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .project {
+        padding: 88px 88px 88px 88px;
+        min-height: 100vh;
+    }
+    .item-container {
+        margin: 0 82px 0 82px;
+        padding: 0 22px 0 22px;
+    }
+    .item-info {
+        font-size: 16px;
+    }
+    h1.projects-title {
+        font-size: 45px;
+    }
+    h1.intro-title {
+        font-size: 4.2em;
+    }
+    h4.intro-content {
+        font-size: 2em;
+        line-height: 1.6em;
+
+    }
+    .intro-section {
+        min-height: 800px !important;
+    }
+    .item-content {
+        font-size: 1.6em;
+    }
+    .computer-img {
+        height: 240px;
+        width: 400px;
+    }
+    h5.intro-resume {
+        font-size: 1.7em;
+    }
+    .maxwidth {
+        max-width: 64em;
+    }
+    .scroll-button {
+        font-size: 2em;
+    }
+
+}
+
+.item-info {
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: -0.1em;
+    margin-top: 0.2em;
+
+}
+
+p.item-info.enque{
+    color: #888;
+}
+
+.project {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.item-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/****** projects title ******/
+
+h1.projects-title {
+    text-align: left;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: 0px;
+    z-index: 10;
+}
+
+/*** box hover effect *****/
+
+.item-box-link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+.item-box-link:hover {
+    text-decoration: none;
+}
+
+.item-box-background {
+    bottom: -.5em;
+    left: -.5em;
+    position: absolute;
+    right: -.5em;
+    top: -.5em;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    opacity: 0;
+    background: white;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+
+.item-box-text {
+    position: relative;
+    z-index: 10;
+    word-break: break-word;
+    line-height: 50px;
+}
+
+
+.item-link {
+    margin-top: -.3em;
+}
+
+
+/***** project link ******/
+.item-link p {
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+/**** project content ****/
+.item-content {
+    text-align: left;
+}
+
+
+/****** My Projects *******/
+
+
+/*** ENQUE ****/
+.project-enque {
+    background: #EEEEEE;
+}
+
+span.item-box-text.enque {
+    color: #ffae00;
+}
+
+.content-enque {
+    color: black;
+}
+
+p.enque-link {
+    color: #888888;
+}
+
+/***** FASTECH ******/
+.project-fastech {
+    background: #223547;
+}
+
+span.item-box-text.fastech-project {
+    color: white;
+}
+
+.content-fastech, p.fastech-link {
+    color: white;
+    opacity: .6;
+}
+
+p.item-info.fastech {
+    color: white;
+    opacity: .6;:
+}
+
+
+/*** FRANK ****/
+
+.project-frank {
+    background: #750096;
+}
+
+span.item-box-text.frank {
+    color: white;
+}
+
+.content-frank, p.frank-link {
+    color: white;
+    opacity: .6;
+}
+
+p.item-info.frank {
+    color: white;
+    opacity: .6;:
+}
+
+/*** raceme ****/
+
+.project-raceme {
+    background: #3182BD;
+}
+
+    span.item-box-text.raceme {
+        color: white;
+    }
+
+    .content-raceme, p.raceme-link {
+        color: white;
+    }
+
+    p.item-info.raceme {
+        color: white;
+        opacity: .6;:
+    }
+
+.inline-text {
+    font-weight: 500;
+}
+
+/***** Fastech *****/
+span.item-box-text.fastech {
+    color: #223547;
+}
+
+/***** ichamba *****/
+span.item-box-text.ichamba {
+    color: orange;
+}
+
+/****** garden compass *****/
+span.item-box-text.gardencompass {
+    color: #7CB445;
+}
+
+/***** resume ****/
+span.item-box-text.resume {
+    color: #E81C4F;
+}
+
+span.item-box-text.myprojects {
+    color: #FF470F;
+}
+
+/***** crbs *******/
+span.item-box-text.crbs {
+    color: #B9D1C6;
+}
+
+
+
+
+/***** Fixed *****/
+.parallax {
+    font-size: 7rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    opacity: .06;
+    position: fixed;
+    letter-spacing: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll-button {
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    opacity: .2;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/**** landing page *****/
+
+
+.maxwidth {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-section {
+    height: auto !important;
+    padding-top: 50px;
+}
+
+    h1.intro-title {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        line-height: 1.5em;
+        letter-spacing: -1px;
+        color: #242424;
+    }
+
+    h4.intro-content {
+        padding-top: 1.4em;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 0px;
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    h5.intro-resume {
+        padding-top: 1.4em;
+        font-weight: 300;
+        text-align: left;
+        line-height: 1.4em;
+        letter-spacing: 0px;
+        color: black;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+    }
+
+/***** SVG *****/
+
+@keyframes bounce {
+  0% { margin-top: 0 }
+  50% { margin-top: -10px;
+        margin-bottom: 10px;
+    }
+  100% { margin-top: 0px }
+
+}
+
+
+svg.hex {
+    animation: bounce 2s infinite;
+}
+
+.opacity {
+    opacity: .45;
+}
+
+.logo-box {
+    position: relative;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+/***** images *****/
+
+.item-images {
+    text-align: center;
+}
